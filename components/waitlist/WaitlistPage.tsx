@@ -377,7 +377,7 @@ function OddsCards() {
   const matches = [
     { league: "UCL · Live",   teams: "MCI vs ARS", odd: "2.15" },
     { league: "La Liga · FT", teams: "RMA vs PSG", odd: "1.85" },
-    { league: "EPL · 78′",   teams: "LIV vs CHE", odd: "2.40" },
+    { league: "EPL · 78′",   teams: "LIV vs CHE", odd: "4.40" },
     { league: "Bundesliga",   teams: "BVB vs FCB", odd: "3.10" },
   ];
   return (
