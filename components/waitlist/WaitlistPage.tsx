@@ -127,12 +127,12 @@ export function WaitlistPage() {
           )}
 
           {txHash && (
-            <div style={styles.txLine}>
+            <div style={{ fontSize: 11, color: "rgba(255,255,255,0.38)", marginTop: 12 }}>
               TX:{" "}
-              
+              <a
                 href={`https://explorer.celo.org/mainnet/tx/${txHash}`}
                 target="_blank" rel="noopener noreferrer"
-                style={styles.txAnchor}
+                style={{ color: "#D4FF00", textDecoration: "none", fontFamily: "monospace" }}
               >
                 {txHash.slice(0, 10)}…
               </a>
@@ -302,7 +302,7 @@ function PageShell({ children }: { children: React.ReactNode }) {
     <>
       <FontLoader />
       <GlobalStyles />
-      <div style={styles.root}>
+      <div id="pe-root" style={styles.root}>
         <div style={styles.bgStripe} />
         <div style={{ ...styles.bgOrb, width: 500, height: 500, background: "#D4FF00", top: -200, right: -180, opacity: 0.08 }} />
         <div style={{ ...styles.bgOrb, width: 400, height: 400, background: "#3B8BFF", bottom: -150, left: -150, opacity: 0.1 }} />
@@ -421,7 +421,7 @@ const TEXT    = "rgba(255,255,255,0.88)";
 
 const styles: Record<string, React.CSSProperties> = {
   root: {
-    id: "pe-root" as never, // applied via the wrapping div's id below
+     // applied via the wrapping div's id below
     background: INK, minHeight: "100vh", fontFamily: FF_BODY,
     color: TEXT, position: "relative", overflow: "hidden",
   },
@@ -445,7 +445,7 @@ const styles: Record<string, React.CSSProperties> = {
 
   /* hero */
   heroEyebrow: { fontFamily: FF_BODY, fontSize: 11, fontWeight: 600, letterSpacing: "0.14em", textTransform: "uppercase", color: ACID, marginBottom: 12, display: "flex", alignItems: "center", gap: 8 },
-  heroHeadline: { fontFamily: FF_HEAD, fontWeight: 900, fontSize: "clamp(48px,14vw,80px)" as never, lineHeight: 0.92, letterSpacing: "-0.02em", textTransform: "uppercase", color: "#fff", marginBottom: 20 },
+  heroHeadline: { fontFamily: FF_HEAD, fontWeight: 900, fontSize: "clamp(48px, 14vw, 80px)" as unknown as number, lineHeight: 0.92, letterSpacing: "-0.02em", textTransform: "uppercase", color: "#fff", marginBottom: 20 },
   heroSub: { fontSize: 14, lineHeight: 1.65, color: MUTED, maxWidth: 380, marginBottom: 28 },
 
   /* stats */
@@ -507,7 +507,5 @@ const styles: Record<string, React.CSSProperties> = {
   refRow: { display: "flex", gap: 8, alignItems: "center" },
   refLink: { flex: 1, fontFamily: "monospace", fontSize: 12, color: "rgba(255,255,255,0.45)", background: INK, border: `1px solid ${LINE}`, borderRadius: 3, padding: "8px 10px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" as never },
   copyBtn: { flexShrink: 0, padding: "8px 14px", background: "transparent", border: `1px solid ${LINE2}`, borderRadius: 3, color: "#fff", fontSize: 12, fontWeight: 600, cursor: "pointer", fontFamily: FF_BODY },
-  txLine: { fontSize: 11, color: MUTED, marginTop: 12 },
-  txAnchor: { color: ACID, textDecoration: "none", fontFamily: "monospace" },
   backLink: { fontSize: 12, color: MUTED, textDecoration: "none" },
 };
