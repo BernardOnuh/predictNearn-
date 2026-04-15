@@ -37,7 +37,7 @@ const MATCHES = [
   { league: "UCL · Live",   teams: "MCI vs ARS", odd: "2.15", live: true  },
   { league: "La Liga · FT", teams: "RMA vs PSG", odd: "1.85", live: false },
   { league: "EPL · 78′",   teams: "LIV vs CHE", odd: "4.40", live: true  },
-  { league: "Bundesliga",   teams: "BVB vs FCB", odd: "3.10", live: false },
+  { league: "Bundesliga",   teams: "BVB vs FCB", odd: "3.10", live: true },
   { league: "Ligue 1",      teams: "PSG vs LYN", odd: "1.60", live: false },
 ];
 
