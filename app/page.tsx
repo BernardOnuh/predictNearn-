@@ -9,7 +9,6 @@ export const metadata = {
 
 export default function WaitlistRoute() {
   return (
-    // Suspense is required because WaitlistPage reads from useSearchParams()
     <Suspense fallback={
       <div className="min-h-screen flex items-center justify-center">
         <p className="text-sm text-muted-foreground animate-pulse">Loading…</p>
