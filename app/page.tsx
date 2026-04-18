@@ -1,11 +1,10 @@
 import { Suspense } from "react";
 import { WaitlistPage } from "@/components/waitlist/WaitlistPage";
 
-export const metadata = {
-  title: "Join the Waitlist — PredictEarn",
-  description:
-    "Be the first to access PredictEarn — the on-chain football prediction market on Celo.",
-};
+export const metadata: Metadata = {
+  title: 'PredictEarn — Waitlist',
+  description: 'The first on-chain football prediction market on Celo.',
+}
 
 export default function WaitlistRoute() {
   return (
