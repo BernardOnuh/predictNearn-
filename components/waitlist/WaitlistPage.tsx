@@ -23,8 +23,8 @@ const MATCHES = [
 ]
 
 const FEATURES = [
-  { icon: '⚡', name: 'Leverage',      sub: 'Up to 100×'     },
-  { icon: '🏆', name: 'Leaderboard',   sub: 'Climb ranks'    },
+  { icon: '⚡', name: 'Leverage',      sub: 'Up to 100×'  },
+  { icon: '🏆', name: 'Leaderboard',   sub: 'Climb ranks' },
   { icon: '💵', name: 'cUSD Payouts',  sub: 'Instant claims' },
   { icon: '🔒', name: 'Non-Custodial', sub: 'Your keys'      },
   { icon: '🌍', name: '50+ Leagues',   sub: 'Global markets' },
