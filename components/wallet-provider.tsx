@@ -53,7 +53,7 @@ export function WalletProvider({ children }: { children: ReactNode }) {
     });
   }, []);
 
-  // Update navbar wallet display
+
   useEffect(() => {
     const el = document.getElementById("wallet-display");
     if (el) {
