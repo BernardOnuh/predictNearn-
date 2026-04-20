@@ -14,7 +14,7 @@ export default function WaitlistRoute() {
         <p className="text-sm text-muted-foreground animate-pulse">Loading…</p>
       </div>
     }>
-      <WaitlistPage />
+      <WaitlistPage/>
     </Suspense>
   );
 }
