@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "PredictNearn",
-  description: "PredictNearn on Celo - predict with cusd",
+  description: "PredictNearn on Celo - predict with cusd via Minipay",
 };
 
 export default function RootLayout({
