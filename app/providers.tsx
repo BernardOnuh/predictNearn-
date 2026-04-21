@@ -7,7 +7,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 const config = createConfig({
   chains: [mainnet],
   transports: {
-    [mainnet.id,testnet.id]: http(),
+    [mainnet.id]: http(),
   },
 });
 
