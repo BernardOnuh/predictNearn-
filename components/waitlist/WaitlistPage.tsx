@@ -39,7 +39,7 @@ const GLOBAL_CSS = `
   *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
   :root {
     --acid:#C8FF00; --ink:#060809; --card:#131619;
-    --line:rgba(255,255,255,0.06); --line2:rgba(255,255,255,0.11);
+    --line:rgba(241, 240, 240, 0.06); --line2:rgba(255,255,255,0.11);
     --muted:rgba(255,255,255,0.42); --text:rgba(255,255,255,0.88);
     --red:#FF3B30;
   }
