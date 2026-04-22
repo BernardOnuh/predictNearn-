@@ -40,7 +40,7 @@ const GLOBAL_CSS = `
   :root {
     --acid:#C8FF00; --ink:#060809; --card:#131619;
     --line:rgba(241, 240, 240, 0.06); --line2:rgba(255,255,255,0.11);
-    --muted:rgba(255,255,255,0.42); --text:rgba(255,255,255,0.88);
+    --muted:rgba(239, 236, 236, 0.42); --text:rgba(255,255,255,0.88);
     --red:#FF3B30;
   }
   html, body { background:var(--ink); color:var(--text); font-family:'DM Sans',sans-serif; overflow-x:hidden; }
