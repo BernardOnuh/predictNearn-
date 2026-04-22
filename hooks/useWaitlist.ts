@@ -40,7 +40,7 @@ const WAITLIST_ABI = [
   },
 ] as const;
 
-// ✅ Proper contract typing
+
 const CONTRACT_ADDRESS: Address =
   "0xd0CDCE75145D7D873b53e69fA7cd271Eda5E6F87";
 
