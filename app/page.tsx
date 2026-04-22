@@ -3,7 +3,7 @@ import { WaitlistPage } from "@/components/waitlist/WaitlistPage";
 
 export const metadata: Metadata = {
   title: 'PredictEarn — Waitlist',
-  description: 'The first on-chain football prediction market on Celo via MiniPay.',
+  description: 'The first on-chain football prediction market on Celo via MiniPay Waitlist.',
 }
 
 export default function WaitlistRoute() {
