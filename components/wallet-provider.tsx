@@ -47,7 +47,7 @@ export function WalletProvider({ children }: { children: ReactNode }) {
       connect();
     }
 
-    // Listen for account changes
+    
     ethereum.on("accountsChanged", (accounts: string[]) => {
       setAddress(accounts[0] ?? null);
     });
